@@ -17,7 +17,7 @@ cxx_compiler_version:
 directx_headers:
 - 1.600.10
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 pin_run_as_build:
   python:
     min_pin: x.x

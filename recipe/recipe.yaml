@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.9.2602.24"
+  version: "1.10.2605.24"
 
 package:
   name: directx-shader-compiler
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/microsoft/DirectXShaderCompiler/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 895044b0c08d16119acf2b0e956da3ceadf0f4b0191cdec51b2c6dfdc53a58c0
+  sha256: ed14b784a9fd89aedd61c55dbe37505997e8227ee031c03df1cf7c0cabddc136
   patches:
     - use-system-spirv-tools.patch
     - install-windows-import-library.patch
